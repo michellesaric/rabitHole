@@ -213,6 +213,11 @@ body {
     color: white;
   }
 
+  .time-and-place-container {
+    margin-bottom: 77px;
+    margin-top: 80px;
+  }
+
   .first-container p,
   .second-container p {
     font-family: "Roboto", sans-serif;
@@ -309,6 +314,11 @@ body {
   .sixth-position {
     left: 270px;
     bottom: 30px;
+  }
+
+  .time-and-place-container {
+    margin-bottom: 65px;
+    margin-top: 66px;
   }
 
   .third-text {
@@ -432,6 +442,11 @@ body {
     line-height: 15px;
     letter-spacing: 0.535em;
     color: white;
+  }
+
+  .time-and-place-container {
+    margin-bottom: 47px;
+    margin-top: 49px;
   }
 
   .first-container p,
