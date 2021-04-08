@@ -11,12 +11,16 @@ const GreenTeam = () => {
       <Layout />
       <div className="time-and-place-container">
         <div className="first-container">
-          <img src={clockIcon} alt="clock icon" className = "clock-icon"/>
+          <img src={clockIcon} alt="clock icon" className="clock-icon" />
           <p>10.4.</p>
           <p>18:00</p>
         </div>
         <div className="second-container">
-          <img src={locationIcon} alt="location icon" className = "location-icon"/>
+          <img
+            src={locationIcon}
+            alt="location icon"
+            className="location-icon"
+          />
           <p>Krafne kod Mate</p>
         </div>
       </div>
@@ -30,11 +34,11 @@ const GreenTeam = () => {
           <p className="google-maps-text">Google maps lokacija</p>
           <p className="teams">ZELENI tim:</p>
           <ul className="team-lists">
-            <li>Osoba A</li>
-            <li>Osoba B</li>
-            <li>Osoba C</li>
-            <li>Osoba D</li>
-            <li>Osoba E</li>
+            <li>Valentina Mindoljević</li>
+            <li>Jere Mandušić</li>
+            <li>Alessia Amanzi</li>
+            <li>Klara Bruna Tomić</li>
+            <li>Roko Radanović</li>
           </ul>
         </div>
       </div>

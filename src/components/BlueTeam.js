@@ -30,11 +30,11 @@ const BlueTeam = () => {
           <p className="google-maps-text">Google maps lokacija</p>
           <p className="teams">PLAVI tim:</p>
           <ul className="team-lists">
-            <li>Osoba A</li>
-            <li>Osoba B</li>
-            <li>Osoba C</li>
-            <li>Osoba D</li>
-            <li>Osoba E</li>
+            <li>Alex Amanzi</li>
+            <li>Jelena Svalina</li>
+            <li>Marija Šustić</li>
+            <li>Josip Svalina</li>
+            <li>Lucia Vukorepa</li>
           </ul>
         </div>
       </div>

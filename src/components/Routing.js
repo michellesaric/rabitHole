@@ -1,6 +1,5 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
-import BlackTeam from './BlackTeam';
 import BlueTeam from './BlueTeam';
 import RedTeam from './RedTeam';
 import GreenTeam from './GreenTeam';
@@ -10,9 +9,6 @@ const Routing = () => {
 
     return (
         <Switch>
-            <Route exact path = "/crni-tim">
-                <BlackTeam/>
-            </Route>
             <Route exact path = "/plavi-tim">
                 <BlueTeam/>
             </Route>

@@ -30,11 +30,11 @@ const YellowTeam = () => {
           <p className="google-maps-text">Google maps lokacija</p>
           <p className="teams">ZUTI tim:</p>
           <ul className="team-lists">
-            <li>Osoba A</li>
-            <li>Osoba B</li>
-            <li>Osoba C</li>
-            <li>Osoba D</li>
-            <li>Osoba E</li>
+            <li>Sergije Antičević</li>
+            <li>Frane Doljanin</li>
+            <li>Ema Golubić</li>
+            <li>Krešimir Čondić</li>
+            <li>Ivo Jovanović</li>
           </ul>
         </div>
       </div>
