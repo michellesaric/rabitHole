@@ -9,16 +9,16 @@ const Routing = () => {
 
     return (
         <Switch>
-            <Route exact path = "/plavi-tim">
+            <Route exact path = "/sWbPpouZ568Qc">
                 <BlueTeam/>
             </Route>
-            <Route exact path = "/crveni-tim">
+            <Route exact path = "/pkLlwTzvuI91q">
                 <RedTeam/>
             </Route>
-            <Route exact path = "/zeleni-tim">
+            <Route exact path = "/12aSbVt6CmLox">
                 <GreenTeam/>
             </Route>
-            <Route exact path = "/zuti-tim">
+            <Route exact path = "/49fgZa5B9nMqr">
                 <YellowTeam/>
             </Route>
         </Switch>
