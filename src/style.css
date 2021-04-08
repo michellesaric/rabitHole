@@ -1,0 +1,487 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: url("./Assets/background.gif");
+  display: flex;
+  justify-content: center;
+}
+
+.black-background {
+  background-color: black;
+  margin: 38px 0px 80px 0px;
+  padding: 50px 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-gif {
+  width: auto;
+  height: 915px;
+}
+
+.kidnapped-nino {
+  margin-top: 24px;
+  width: 529px;
+  height: 392px;
+}
+
+.second-text-gif {
+  width: 531px;
+  height: 196px;
+}
+
+.third-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.535em;
+  color: white;
+}
+
+.second-text-container {
+  position: relative;
+}
+
+.first-position {
+  position: absolute;
+  width: 100.36px;
+  height: 19.3px;
+  left: 27px;
+  top: 30px;
+}
+
+.second-position {
+  position: absolute;
+  width: 69.02px;
+  height: 19.51px;
+  left: 50px;
+  top: 105px;
+  transform: matrix(0.85, 0.5, -0.54, 0.86, 0, 0);
+}
+
+.third-position {
+  position: absolute;
+  width: 40px;
+  height: 19.37px;
+  left: 182.86px;
+  top: 60px;
+  transform: matrix(0.95, -0.29, 0.32, 0.95, 0, 0);
+}
+
+.fourth-position {
+  position: absolute;
+  width: 76.06px;
+  height: 19.3px;
+  left: 329.7px;
+  top: 35px;
+}
+
+.fifth-position {
+  position: absolute;
+  width: 54.86px;
+  height: 19.33px;
+  left: 332.11px;
+  bottom: 80px;
+  transform: matrix(0.98, 0.18, -0.2, 0.98, 0, 0);
+}
+
+.sixth-position {
+  position: absolute;
+  width: 71.64px;
+  height: 19.36px;
+  left: 465.41px;
+  bottom: 60px;
+  transform: matrix(0.96, -0.26, 0.28, 0.96, 0, 0);
+}
+
+.time-and-place-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 85%;
+}
+
+.first-container,
+.second-container {
+  display: flex;
+  align-items: center;
+}
+
+.first-container p,
+.second-container p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-right: 51px;
+}
+
+.first-container img,
+.second-container img {
+  margin-right: 51px;
+}
+
+.google-maps-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 133.69%;
+  color: #ffffff;
+  margin-bottom: 127px;
+}
+
+.teams,
+.team-lists li {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  list-style-type: none;
+  color: #ffffff;
+}
+
+.team-lists li {
+  margin-left: -45px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .text-gif {
+    height: 691px;
+    width: auto;
+  }
+
+  .black-background {
+    padding: 30px;
+    margin: 24px 0px 60px 0px;
+  }
+
+  .kidnapped-nino {
+    margin-top: 46px;
+    width: 388px;
+    height: 287px;
+  }
+
+  .second-text-gif {
+    width: 385px;
+    height: 143px;
+  }
+
+  .second-position {
+    left: 50px;
+    top: 90px;
+  }
+
+  .third-position {
+    left: 140px;
+    top: 50px;
+  }
+  .fourth-position {
+    left: 230px;
+    top: 35px;
+  }
+
+  .fifth-position {
+    left: 235px;
+    bottom: 60px;
+  }
+
+  .sixth-position {
+    left: 330px;
+    bottom: 40px;
+  }
+
+  .third-text {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 19px;
+    letter-spacing: 0.535em;
+    color: white;
+  }
+
+  .first-container p,
+  .second-container p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 31px;
+    color: #ffffff;
+    margin-right: 38.5px;
+  }
+  .first-container img,
+  .second-container img {
+    margin-right: 38.5px;
+  }
+
+  .clock-icon {
+    width: 31px;
+    height: 31px;
+  }
+
+  .location-icon {
+    width: 29px;
+    height: 38.425;
+  }
+
+  .google-maps-image {
+    width: 372px;
+    height: 201px;
+  }
+
+  .google-maps-text {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 133.69%;
+    color: #ffffff;
+    margin-bottom: 76px;
+  }
+
+  .teams,
+  .team-lists li {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    list-style-type: none;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .text-gif {
+    height: 579px;
+    width: auto;
+  }
+
+  .black-background {
+    padding: 26px;
+    margin: 20px 0px 50px 0px;
+  }
+
+  .kidnapped-nino {
+    margin-top: 46px;
+    width: 317px;
+    height: 234px;
+  }
+
+  .second-text-gif {
+    width: 312px;
+    height: 116px;
+  }
+
+  .second-position {
+    left: 40px;
+    top: 75px;
+  }
+
+  .third-position {
+    left: 115px;
+    top: 40px;
+  }
+  .fourth-position {
+    left: 180px;
+    top: 33px;
+  }
+
+  .fifth-position {
+    left: 185px;
+    bottom: 50px;
+  }
+
+  .sixth-position {
+    left: 270px;
+    bottom: 30px;
+  }
+
+  .third-text {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8.5px;
+    line-height: 15px;
+    letter-spacing: 0.535em;
+    color: white;
+  }
+
+  .first-container p,
+  .second-container p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17.5px;
+    line-height: 31px;
+    color: #ffffff;
+    margin-right: 32.25px;
+  }
+  .first-container img,
+  .second-container img {
+    margin-right: 32.25px;
+  }
+
+  .clock-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .location-icon {
+    width: 23px;
+    height: 31.1375px;
+  }
+
+  .google-maps-image {
+    width: 309.5px;
+    height: 180.5px;
+  }
+
+  .google-maps-text {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.5px;
+    line-height: 133.69%;
+    color: #ffffff;
+    margin-bottom: 51px;
+  }
+
+  .teams,
+  .team-lists li {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    list-style-type: none;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text-gif {
+    height: auto;
+    width: 247px;
+  }
+
+  .black-background {
+    padding: 19px 19px 19px 19px;
+    margin: 19px 0px 40px 0px;
+  }
+
+  .kidnapped-nino {
+    margin-top: 46px;
+    width: 247px;
+    height: 184px;
+  }
+
+  .second-text-gif {
+    width: 240px;
+    height: 90px;
+  }
+
+  .first-position {
+    left: 15px;
+    top: 20px;
+  }
+
+  .second-position {
+    left: 25px;
+    top: 60px;
+  }
+
+  .third-position {
+    left: 85px;
+    top: 30px;
+  }
+  .fourth-position {
+    left: 135px;
+    top: 20px;
+  }
+
+  .fifth-position {
+    left: 140px;
+    bottom: 35px;
+  }
+
+  .sixth-position {
+    left: 200px;
+    bottom: 25px;
+  }
+
+  .third-text {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 7px;
+    line-height: 15px;
+    letter-spacing: 0.535em;
+    color: white;
+  }
+
+  .first-container p,
+  .second-container p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 31px;
+    color: #ffffff;
+    margin-right: 26px;
+  }
+  .first-container img,
+  .second-container img {
+    margin-right: 26px;
+  }
+
+  .clock-icon {
+    width: 19px;
+    height: 19px;
+  }
+
+  .location-icon {
+    width: 18px;
+    height: 23.85;
+  }
+
+  .google-maps-image {
+    width: 247px;
+    height: 160px;
+  }
+
+  .google-maps-text {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 133.69%;
+    color: #ffffff;
+    margin-bottom: 26px;
+  }
+
+  .teams,
+  .team-lists li {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 142.69%;
+    list-style-type: none;
+    color: #ffffff;
+  }
+}
