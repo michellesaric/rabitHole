@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1440a6dc.chunk.css",
+    "main.js": "/static/js/main.62c76e93.chunk.js",
+    "main.js.map": "/static/js/main.62c76e93.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.535e5b30.js",
+    "runtime-main.js.map": "/static/js/runtime-main.535e5b30.js.map",
+    "static/js/2.729e425e.chunk.js": "/static/js/2.729e425e.chunk.js",
+    "static/js/2.729e425e.chunk.js.map": "/static/js/2.729e425e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1440a6dc.chunk.css.map": "/static/css/main.1440a6dc.chunk.css.map",
+    "static/js/2.729e425e.chunk.js.LICENSE.txt": "/static/js/2.729e425e.chunk.js.LICENSE.txt",
+    "static/media/Medeni.c2957856.png": "/static/media/Medeni.c2957856.png",
+    "static/media/style.css": "/static/media/background.cdcffd36.gif",
+    "static/media/dardin.08816b0e.png": "/static/media/dardin.08816b0e.png",
+    "static/media/domMladih.cac33674.png": "/static/media/domMladih.cac33674.png",
+    "static/media/krafneKodMate.9ace8bf1.png": "/static/media/krafneKodMate.9ace8bf1.png",
+    "static/media/mainText.a04b3a0f.gif": "/static/media/mainText.a04b3a0f.gif",
+    "static/media/otetiNino.c41b81dd.png": "/static/media/otetiNino.c41b81dd.png",
+    "static/media/secondText.6425a0aa.gif": "/static/media/secondText.6425a0aa.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.535e5b30.js",
+    "static/js/2.729e425e.chunk.js",
+    "static/css/main.1440a6dc.chunk.css",
+    "static/js/main.62c76e93.chunk.js"
+  ]
+}
